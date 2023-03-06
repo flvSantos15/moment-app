@@ -12,6 +12,8 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
 import { MomemtFormComponent } from './components/momemt-form/momemt-form.component';
+import { MessagesComponent } from './components/messages/messages.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { MomemtFormComponent } from './components/momemt-form/momemt-form.compon
     HomeComponent,
     NewMomentComponent,
     MomemtFormComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,6 +32,7 @@ import { MomemtFormComponent } from './components/momemt-form/momemt-form.compon
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

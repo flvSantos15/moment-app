@@ -42,7 +42,6 @@ export class MomemtFormComponent {
     if (this.momentForm.invalid) {
       return;
     }
-    console.log(this.momentForm.value);
 
     // estou passando os dados para o componente pai.
     // estou jogando as informações para fora.
