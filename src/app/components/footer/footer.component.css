@@ -6,8 +6,10 @@ footer {
   justify-content: center;
   height: 200px;
 
-  position: absolute;
-  bottom: 0;
+  background-color: red;
+
+  /* position: absolute; */
+  /* bottom: 0; */
   width: 100%;
 }
 

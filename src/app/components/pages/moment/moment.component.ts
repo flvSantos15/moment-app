@@ -5,6 +5,8 @@ import { MomentService } from 'src/app/services/moment.service';
 
 import { Moment } from 'src/app/Moments';
 
+import { faTimes, faEdit } from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-moment',
   templateUrl: './moment.component.html',
@@ -12,6 +14,10 @@ import { Moment } from 'src/app/Moments';
 })
 export class MomentComponent {
   moment?: Moment;
+  baseApiUrl = 'http://localhost:3333/';
+
+  faTimes = faTimes;
+  faEdit = faEdit;
 
   constructor(
     private momentsService: MomentService,
