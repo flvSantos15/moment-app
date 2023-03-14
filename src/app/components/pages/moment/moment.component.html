@@ -19,6 +19,13 @@
   </div>
   <!-- TODO Comentários -->
   <div class="comments">
-    <p>Comentários</p>
+    <p>Comentários: (0)</p>
+    <button class="remove-btn">
+      <fa-icon
+        [icon]="faTimes"
+        (click)="handleRemoveMoment(moment.id!)"
+      ></fa-icon>
+      Excluir
+    </button>
   </div>
 </div>
